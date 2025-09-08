@@ -1,0 +1,16 @@
+name: smart_attendance
+description: Smart Attendance App (QR first, Face later)
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  cloud_firestore: ^4.0.0
+  qr_code_scanner: ^1.0.0
+
+flutter:
+  uses-material-design: true
